@@ -2,7 +2,7 @@
 
 ## 重要
 
-常に日本語で答える
+Posts a code review in Japanese language.
 
 ## 概要
 
