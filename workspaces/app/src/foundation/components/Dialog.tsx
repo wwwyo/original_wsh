@@ -1,7 +1,7 @@
+import { Close } from '@mui/icons-material';
 import { useEffect } from 'react';
 import styled from 'styled-components';
 
-import { SvgIcon } from '../../features/icons/components/SvgIcon';
 import { Color, Space } from '../styles/variables';
 
 import { Button } from './Button';
@@ -57,7 +57,7 @@ export const Dialog: React.FC<{ children: React.ReactNode; onClose: () => void; 
     <_Overlay open={open}>
       <_Wrapper>
         <_CloseButton onClick={onClose}>
-          <SvgIcon color={Color.MONO_A} height={32} type="Close" width={32} />
+          <Close style={{ color: Color.MONO_A, height: 32, width: 32 }} />
         </_CloseButton>
         <_Container>{children}</_Container>
       </_Wrapper>
