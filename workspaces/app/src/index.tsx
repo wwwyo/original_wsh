@@ -1,5 +1,3 @@
-import './setup';
-
 import { GlobalStyle } from './foundation/styles/GlobalStyle';
 import { Router } from './routes';
 
