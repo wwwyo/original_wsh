@@ -211,9 +211,6 @@ importers:
       jimp:
         specifier: 0.22.12
         version: 0.22.12
-      jquery:
-        specifier: 3.7.1
-        version: 3.7.1
       p-queue:
         specifier: 8.0.1
         version: 8.0.1
