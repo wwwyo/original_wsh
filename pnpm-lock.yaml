@@ -108,9 +108,6 @@ importers:
       '@mui/icons-material':
         specifier: 5.15.4
         version: 5.15.4(@mui/material@5.15.4)(@types/react@18.2.0)(react@18.2.0)
-      '@mui/material':
-        specifier: 5.15.4
-        version: 5.15.4(@types/react@18.2.0)(react-dom@18.2.0)(react@18.2.0)
       '@react-spring/web':
         specifier: 9.7.3
         version: 9.7.3(react-dom@18.2.0)(react@18.2.0)
@@ -315,17 +312,17 @@ importers:
         specifier: 6.0.3
         version: 6.0.3
       '@hono/node-server':
-        specifier: 1.8.2
-        version: 1.8.2
+        specifier: 1.10.1
+        version: 1.10.1
       '@hono/swagger-ui':
         specifier: 0.2.1
-        version: 0.2.1(hono@4.1.0)
+        version: 0.2.1(hono@4.6.5)
       '@hono/zod-openapi':
         specifier: 0.9.8
-        version: 0.9.8(hono@4.1.0)(zod@3.22.4)
+        version: 0.9.8(hono@4.6.5)(zod@3.22.4)
       '@hono/zod-validator':
         specifier: 0.2.0
-        version: 0.2.0(hono@4.1.0)(zod@3.22.4)
+        version: 0.2.0(hono@4.6.5)(zod@3.22.4)
       '@jsquash/jxl':
         specifier: 1.1.0
         version: 1.1.0
@@ -357,8 +354,8 @@ importers:
         specifier: 14.0.1
         version: 14.0.1
       hono:
-        specifier: 4.1.0
-        version: 4.1.0
+        specifier: 4.6.5
+        version: 4.6.5
       image-js:
         specifier: 0.35.5
         version: 0.35.5
@@ -2397,20 +2394,20 @@ packages:
     resolution: {integrity: sha512-PnsP5d4q7289pS2T2EgGz147BFJ2Jpb4yrEdkpz2IhgEUzos1S7HTl7ezWh1yfYzYlj89KzLdCRkqsP6SIryeQ==}
     dev: false
 
-  /@hono/node-server@1.8.2:
-    resolution: {integrity: sha512-h8l2TBLCPHZBUrrkosZ6L5CpBLj6zdESyF4B+zngiCDF7aZFQJ0alVbLx7jn8PCVi9EyoFf8a4hOZFi1tD95EA==}
+  /@hono/node-server@1.10.1:
+    resolution: {integrity: sha512-5BKW25JH5PQKPDkTcIgv3yNUPtOAbnnjFFgWvIxxAY/B/ZNeYjjWoAeDmqhIiCgOAJ3Tauuw+0G+VainhuZRYQ==}
     engines: {node: '>=18.14.1'}
     dev: false
 
-  /@hono/swagger-ui@0.2.1(hono@4.1.0):
+  /@hono/swagger-ui@0.2.1(hono@4.6.5):
     resolution: {integrity: sha512-wBxVMRe3/v8xH4o6icmwztiIq0DG0s7+jHVMHVUAoFFCWEQNL2iskMmQtrhSDtsFmBZUeUFQUaaJ6Ir6DOmHLA==}
     peerDependencies:
       hono: '*'
     dependencies:
-      hono: 4.1.0
+      hono: 4.6.5
     dev: false
 
-  /@hono/zod-openapi@0.9.8(hono@4.1.0)(zod@3.22.4):
+  /@hono/zod-openapi@0.9.8(hono@4.6.5)(zod@3.22.4):
     resolution: {integrity: sha512-NS6lvQEGnsjyQkp+aQjMARREz3WGf19y0+RiiJMVrihWlmKbGaJkPuOWpfFQG6FU9q+FVUyUCryXK+3J07GPAw==}
     engines: {node: '>=16.0.0'}
     peerDependencies:
@@ -2418,28 +2415,28 @@ packages:
       zod: 3.*
     dependencies:
       '@asteasolutions/zod-to-openapi': 5.5.0(zod@3.22.4)
-      '@hono/zod-validator': 0.1.11(hono@4.1.0)(zod@3.22.4)
-      hono: 4.1.0
+      '@hono/zod-validator': 0.1.11(hono@4.6.5)(zod@3.22.4)
+      hono: 4.6.5
       zod: 3.22.4
     dev: false
 
-  /@hono/zod-validator@0.1.11(hono@4.1.0)(zod@3.22.4):
+  /@hono/zod-validator@0.1.11(hono@4.6.5)(zod@3.22.4):
     resolution: {integrity: sha512-PQXeHUP0+36qpRt8yfeD7N2jbK3ETlGvSN6dMof/HwUC/APRokQRjpXZm4rrlG71Ft0aWE01+Bm4XejqPie5Uw==}
     peerDependencies:
       hono: '>=3.9.0'
       zod: ^3.19.1
     dependencies:
-      hono: 4.1.0
+      hono: 4.6.5
       zod: 3.22.4
     dev: false
 
-  /@hono/zod-validator@0.2.0(hono@4.1.0)(zod@3.22.4):
+  /@hono/zod-validator@0.2.0(hono@4.6.5)(zod@3.22.4):
     resolution: {integrity: sha512-PC7akbA/DCFY406BL3+ogjYb+7Fgfs/6XPvyURBYMczo0M7kYsTUMnF8hA9mez1RORNCWPqXuFGfKrkoUVPvrQ==}
     peerDependencies:
       hono: '>=3.9.0'
       zod: ^3.19.1
     dependencies:
-      hono: 4.1.0
+      hono: 4.6.5
       zod: 3.22.4
     dev: false
 
@@ -6371,9 +6368,9 @@ packages:
     dependencies:
       react-is: 16.13.1
 
-  /hono@4.1.0:
-    resolution: {integrity: sha512-9no6DCHb4ijB1tWdFXU6JnrnFgzwVZ1cnIcS1BjAFnMcjbtBTOMsQrDrPH3GXbkNEEEkj8kWqcYBy8Qc0bBkJQ==}
-    engines: {node: '>=16.0.0'}
+  /hono@4.6.5:
+    resolution: {integrity: sha512-qsmN3V5fgtwdKARGLgwwHvcdLKursMd+YOt69eGpl1dUCJb8mCd7hZfyZnBYjxCegBG7qkJRQRUy2oO25yHcyQ==}
+    engines: {node: '>=16.9.0'}
     dev: false
 
   /hosted-git-info@2.8.9:
